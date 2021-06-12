@@ -38,16 +38,16 @@ handlerr () {
 welcome () {
   clear
   echo "==================================================="
-  echo "=                                             	="
-  echo "= 	Welcome to the EZArch Installer Script  	="
-  echo "=                                             	="
-  echo "= 	BIOS Edition                            	="
-  echo "= 	Version 6.0  (Release)                  	="
-  echo "=                                             	="
-  echo "= 	Brought to you by eznix                 	="
-  echo "= 	https://sourceforge.net/projects/ezarch/	="
-  echo "=                                             	="
-  echo -e "=================================================== \n"
+  echo "=                                             	  ="
+  echo "= 	Welcome to the EZArch Installer Script    ="
+  echo "=                                             	  ="
+  echo "= 	BIOS Edition                              ="
+  echo "= 	Version 6.0  (Release)                    ="
+  echo "=                                             	  ="
+  echo "= 	Brought to you by eznix                   ="
+  echo "= 	https://sourceforge.net/projects/ezarch/  ="
+  echo "=                                             	  ="
+  echo -e "============================================= \n"
   sleep 4
 }
 #
@@ -424,7 +424,7 @@ instnet () {
 #
 instfonts () {
   clear
-  pacstrap /mnt ttf-ubuntu-font-family ttf-dejavu ttf-bitstream-vera ttf-liberation noto-fonts ttf-roboto ttf-opensans opendesktop-fonts ttf.hack ttf.joypixels ttf-font-awesome otf-font-awesome cantarell-fonts freetype2 terminus-font
+  pacstrap /mnt ttf-ubuntu-font-family ttf-dejavu ttf-bitstream-vera ttf-liberation noto-fonts ttf-roboto ttf-opensans opendesktop-fonts ttf-hack ttf-joypixels ttf-font-awesome otf-font-awesome cantarell-fonts freetype2 terminus-font
   clear
   echo -e "\n"
   echo "Fonts packages installed..."
